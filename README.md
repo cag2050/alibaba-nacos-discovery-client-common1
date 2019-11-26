@@ -6,6 +6,7 @@
 Spring Cloud Version| Spring Cloud Alibaba Version | Spring Boot Version
 --- | --- | ---
 Spring Cloud Greenwich | 2.1.1.RELEASE | 2.1.X.RELEASE
+
 2.服务消费者在主类上不用添加注解：@EnableDiscoveryClient，但需要在文件 application.properties 中配置属性：spring.cloud.nacos.discovery.server-addr
 
 ### 参考资料
